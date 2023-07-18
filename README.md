@@ -1,4 +1,4 @@
-![example workflow](https://github.com/schizgod/yamdb_final/actions/workflows/main.yml/badge.svg)
+![example workflow](https://github.com/schizgod/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 Как запустить проект:
 Все описанное ниже относится к ОС Linux.
