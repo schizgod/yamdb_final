@@ -4,7 +4,7 @@
 Все описанное ниже относится к ОС Linux.
 
 Клонируем репозиторий и и переходим в него:
-git clone git@github.com:themasterid/yamdb_final.git
+git clone git@github.com:schizgod/yamdb_final.git
 cd yamdb_final
 Создаем и активируем виртуальное окружение:
 python3 -m venv venv
