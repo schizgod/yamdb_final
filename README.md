@@ -1,4 +1,4 @@
-[![Your Status Badge Text](https://github.com/schizgod/yamdb_final/blob/master/.github/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/your-username/your-repo-name/actions)
+[![Your Status Badge Text](https://github.com/schizgod/yamdb_final/yamdb_workflow.yml/badge.svg)](https://github.com/your-username/your-repo-name/actions)
 
 Как запустить проект:
 Все описанное ниже относится к ОС Linux.

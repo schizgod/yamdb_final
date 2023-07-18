@@ -25,7 +25,7 @@ jobs:
         pytest
 
     - name: Setup status badge
-  run: echo "[![Your Status Badge Text](https://github.com/schizgod/yamdb_final/blob/master/.github/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/schizgod/yamdb_final/actions/runs/5582093909)"
+  run: echo "[![Your Status Badge Text](https://github.com/schizgod/yamdb_final/yamdb_workflow.yml/badge.svg)](https://github.com/schizgod/yamdb_final/actions/runs/5582093909)"
 
   build_and_push_to_docker_hub:
     name: Push Docker image to Docker Hub
