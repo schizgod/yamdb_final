@@ -1,5 +1,5 @@
 ![example workflow](https://github.com/schizgod/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-
+asd
 Как запустить проект:
 Все описанное ниже относится к ОС Linux.
 
