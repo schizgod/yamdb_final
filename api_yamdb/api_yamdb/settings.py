@@ -67,12 +67,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'api_yamdb.wsgi.application'
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
 
 DATABASES = {
     'default': {
@@ -151,8 +145,3 @@ EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 
 AUTH_USER_MODEL = 'reviews.User'
-
-# {
-# "username": "test",
-# "confirmation_code": "64p-3620fe748d43507aad35"
-# }
