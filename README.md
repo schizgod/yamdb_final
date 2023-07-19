@@ -58,4 +58,4 @@ sudo apt install postgresql postgresql-contrib -y
 Управляем БД:
 Остановить
 sudo systemctl stop postgresql
-asd
+asdasd
