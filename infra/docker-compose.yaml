@@ -14,8 +14,8 @@ services:
     env_file:
       - ./.env
   web:
-    image: schizgod/yamdb_final:latest
-    restart: always
+    build: .
+    command: gunicorn -w 4 -b 0.0.0.0:8000 app:app
     volumes:
       - static_value:/app/static/
       - media_value:/app/media/
