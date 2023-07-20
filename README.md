@@ -1,4 +1,4 @@
-![workflow2try333333](https://github.com/schizgod/yamdb_final/actions/workflows/Yamdb-workflow.yml/badge.svg)
+![workflow2try4](https://github.com/schizgod/yamdb_final/actions/workflows/Yamdb-workflow.yml/badge.svg)
 
 
 
