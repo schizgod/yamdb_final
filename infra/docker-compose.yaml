@@ -22,7 +22,8 @@ services:
     depends_on:
       - db
     env_file:
-      - ../.env
+      - ./.env
+      - /schizgod/yamdb_final/.env
 
 
   nginx:
