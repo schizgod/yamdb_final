@@ -23,8 +23,6 @@ services:
       - db
     env_file:
       - ./.env
-      - /schizgod/yamdb_final/.env
-
 
   nginx:
     image: nginx:1.21.3-alpine
