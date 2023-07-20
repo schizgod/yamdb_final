@@ -204,55 +204,6 @@ DB_PORT=5432
 ```bash
 python manage.py migrate
 ```
-
-# ДОПИСАТЬ!!! 03.10.2022
-# Так же исправить settings.py с .env для секретов!
-
-### 
-Поднимаем контейнеры (
-    infra_db - база,
-    infra_web - веб,
-    nfra_nginx - nginx сервер
-    возможно пригодится команда sudo systemctl stop nginx если запускаете в DEV режиме на ПК):
-```bash
-sudo docker-compose up -d --build 
-```
-
-### Выполняем миграции в контейнере infra_web:
-```bash
-sudo docker-compose exec web python manage.py makemigrations reviews 
-```
-```bash
-sudo docker-compose exec web python manage.py migrate --run-syncdb
-```
-### Создаем суперпользователя:
-```bash
-docker-compose exec web python manage.py createsuperuser 
-```
-
-### Собираем статику:
-```bash
-docker-compose exec web python manage.py collectstatic --no-input 
-```
-
-### Создаем дамп базы данных (нет в текущем репозитории):
-```bash
-docker-compose exec web python manage.py dumpdata > dumpPostrgeSQL.json 
-```
-
-### Останавливаем контейнеры:
-```bash
-docker-compose down -v 
-```
-### Шаблон наполнения .env (не включен в текущий репозиторий) расположенный по пути infra/.env
-```
-DB_ENGINE=django.db.backends.postgresql 
-DB_NAME=postgres 
-POSTGRES_USER=postgres 
-POSTGRES_PASSWORD=postgres 
-DB_HOST=db 
-DB_PORT=5432 
-```
 ### Документация API YaMDb 
 Документация доступна по эндпойнту: http://84.201.133.27/redoc 
 
