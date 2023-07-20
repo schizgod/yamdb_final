@@ -2,6 +2,8 @@ FROM python:3.7-slim
 
 WORKDIR /app
 
+RUN pip install gunicorn
+
 COPY api_yamdb/requirements.txt .
 
 RUN python -m pip install --upgrade pip
