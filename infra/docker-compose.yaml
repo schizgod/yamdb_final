@@ -16,7 +16,7 @@ services:
 
   web:
     image: schizgod/yamdb_final:latest
-    command: gunicorn your_project_name.wsgi:application -b 0.0.0.0:8000
+    command: gunicorn api_yamdb.wsgi:application -b 0.0.0.0:8000
     restart: always
     volumes:
       - static_value:/app/static/
