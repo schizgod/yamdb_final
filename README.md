@@ -1,4 +1,4 @@
-![workflow34445444444422224](https://github.com/schizgod/yamdb_final/actions/workflows/Yamdb-workflow.yml/badge.svg)
+![workflow7](https://github.com/schizgod/yamdb_final/actions/workflows/Yamdb-workflow.yml/badge.svg)
 
 
 
