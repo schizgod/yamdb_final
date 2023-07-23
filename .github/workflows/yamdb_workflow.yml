@@ -48,7 +48,7 @@ jobs:
         with:
           context: ./api_yamdb/
           push: true
-          tags: technola/yamdb_final:latest
+          tags: schizgod/yamdb_final:latest
 
   deploy:
     runs-on: ubuntu-latest
