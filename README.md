@@ -1,8 +1,8 @@
-![workflow77882444441](https://github.com/schizgod/yamdb_final/actions/workflows/Yamdb-workflow.yml/badge.svg)
+![workflow778824444412](https://github.com/schizgod/yamdb_final/actions/workflows/Yamdb-workflow.yml/badge.svg)
 
 
 
-Проект развернут по адресу: http://62.84.113.28/api/v1/genres/
+Проект развернут по адресу: http://62.84.113.28/redoc/
 ## Описание 
  
 Проект YaMDb собирает отзывы пользователей на произведения. Произведения делятся на категории:«Книги», «Фильмы», «Музыка». Список категорий  может быть расширен (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
@@ -205,6 +205,6 @@ DB_PORT=5432
 python manage.py migrate
 ```
 ### Документация API YaMDb 
-Документация доступна по эндпойнту: http://62.84.113.28/api/v1/genres/
+Документация доступна по эндпойнту: http://62.84.113.28/redoc/
 
 ### Автор: [Владимир Тарас](https://github.com/schizgod) :+1:
